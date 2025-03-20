@@ -1,11 +1,10 @@
 import json
 from pathlib import Path
 import sys
-sys.path.append('/nbhome/fms/conda/envs/fre-test/lib/python3.9')
-sys.path.append('/nbhome/fms/conda/envs/fre-test/lib/python3.9/site-packages')
-sys.path.append('/nbhome/fms/conda/envs/fre-test/lib/python3.9/lib-dynload')
-sys.path.append('/nbhome/fms/conda/envs/fre-test/lib/python39.zip')
 import intake
+
+#catalog json update paths to csv https://github.com/aradhakrishnanGFDL/gfdl-aws-analysis/blob/master/esm-collection-spec-examples/intake-uda.json
+#catalog csv https://github.com/aradhakrishnanGFDL/gfdl-aws-analysis/blob/master/esm-collection-spec-examples/intake_uda.csv.gz
 
 class Metadata:
     def meta(self):
